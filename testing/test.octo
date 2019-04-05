@@ -1,19 +1,17 @@
-arr a = [53,"hello,world","Srihari Unnikrishnan, Is the King",33];
-if (5>3) {;
-    int p = 31+35;
-    sys.print (a.get(2));
-    sys.print ("dang");
 
-    if (3==1) {;
-        sys.print ("my lang is an idiot. kinda");
-
+    arr a = [53,"hello,world","Bananas",33];
+    if (5>3) {;
+        int p = 31+35;
+        sys.print (a.get(2));
+        if (3==1) {;
+            sys.print ("it works!");
+        };
     };
-};
-# Comment that doesnt make sense;
-for (i in sys.prog(1,20)) {;
-    sys.print(i);
-};
-fun String hello (String name,String king) {;
-    return (name+king);
-};
-sys.print(hello("Fortnite"," Cringey"))
+    # Comment that doesnt make sense;
+    for (i in sys.prog(1,20)) {;
+        sys.print(i);
+    };
+    fun String hello (String name,String surname) {;
+        return (name+surname);
+    };
+    sys.print(hello("Srihari ","Unnikrishnan"))
