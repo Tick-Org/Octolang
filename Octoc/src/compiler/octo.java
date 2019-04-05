@@ -2,6 +2,7 @@ package compiler;import generator.Inbuilt;import java.util.ArrayList;public clas
 if(5>3){
 int p = 31+35;
 sys.print (a.get(2));
+sys.print ("dang");
 if(3==1){
 sys.print ("my lang is an idiot. kinda");
 }

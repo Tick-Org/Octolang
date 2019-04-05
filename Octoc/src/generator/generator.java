@@ -8,7 +8,8 @@ import org.json.*;
  */
 public class generator {
     private static SyntaxDefs defenition = new SyntaxDefs();
-    BufferedWriter out = new BufferedWriter(new FileWriter("/bin/octo/Octoc/src/compiler/octo.java"));
+
+    BufferedWriter out = new BufferedWriter(new FileWriter("Octoc/src/compiler/octo.java"));
     private static Inbuilt inbuiltdefs = new Inbuilt();
     public generator(JSONArray trAST)throws Exception{
 
