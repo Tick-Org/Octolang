@@ -6,7 +6,7 @@ html,body{
     width:100%;
     background-color: #050408;
     color:#eee;
-    
+    font-size: 1.2em;
     height: 100%;   
     font-family: 'Abel', sans-serif;  
     scroll-behavior: smooth;
@@ -19,6 +19,7 @@ html,body{
 }
 #features div{
   margin:10px;
+  width:50%
 }
 #parent{
     height:80%;
@@ -34,6 +35,10 @@ html,body{
     background-repeat: none;
 	
     
+}
+code{
+  background-color: #808080;
+  padding:5px;
 }
 @-webkit-keyframes Gradient {
 	0% {
